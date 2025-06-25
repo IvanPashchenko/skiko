@@ -128,7 +128,7 @@ jobs:
           retention-days: 5
 
   linux:
-    runs-on: ubuntu-22.04
+    runs-on: oraclelinux:8
     steps:
       - uses: actions/checkout@v3
         name: 'Check out code'
